@@ -12,6 +12,17 @@
   display: flex;
 }
 
+.primary-button{
+  font-weight: 600px;
+  font-size: 1.25rem;
+  padding: 25px 21px;
+  color: white;
+  background-color: #FF900E;
+  border-radius: 8px;
+  border: none;
+ 
+
+}
 /*dark 02*/
 .text-gray{
   color:#424242 ;
@@ -32,16 +43,42 @@
 
 .nav-bar{
   justify-content: space-between;
+  align-items: center;
  
 }
 .nav-item{
   list-style: none;
   margin-right: 30px;
 }
+.brand{
+  font-weight: 700px;
+  font-size: 2.8rem; /* 16px=1rem 3px=2.8 rem*/
+}
 .nav-link{
   text-decoration: none;
 }
-.nav-bar, .baner{
+.nav-bar, .banner{
   max-width: 1440px;
   margin: 0 auto;
+}
+/*banner related style*/
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-weight: 700px;
+  font-size: 4rem;
+}
+.banner-image{
+  width: 100%;
+}
+/*responsive media query*/
+@media screen and (max-width:576px) {
+  .display-flex{
+    flex-direction: column;
+  }
+  
 }
