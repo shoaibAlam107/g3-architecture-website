@@ -136,6 +136,25 @@ main > section{
 .love-enjoy{
   gap: 140px;
 }
+#experience-batch{
+  padding: 45px 42px ;
+  font-size:1.5rem ;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+.feature-architect img{
+  width: 100%;
+}
+#experience-year{
+  font-size: 4.02rem ;
+  font-weight: 700;
+}
+
+
+
+
 
 /* facts*/
 .fact-container{
@@ -189,7 +208,8 @@ margin-bottom: 10px;
 /*responsive media query*/
 @media screen and (max-width:576px) {
   .display-flex,
-  .teams{
+  .teams ,
+  .love-enjoy{
     flex-direction: column;
   }
   .team-image-container, .fact-container, .sponsor-company{
@@ -205,6 +225,11 @@ margin-bottom: 10px;
   .sponsor-company{
     justify-items: center;
     gap: 50px;
+  }
+  #experience-batch{
+    margin-top: 20px;
+    margin-left: 20px;
+
   }
   
 }
