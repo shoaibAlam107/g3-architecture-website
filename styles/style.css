@@ -112,6 +112,30 @@ main > section{
 #quick-list{
   font-weight: 500;
 }
+/* feature  related style */
+#love-enjoy-title{
+  border-left: 5px solid #FF900E;
+  padding: 20px;
+}
+.feature-card{
+  max-width: 586;
+  height: 982;
+   padding: 10px;
+   border-radius: 8px;
+   box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06) ;
+   margin-bottom: 10px;
+
+}
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+}
+.love-enjoy{
+  gap: 140px;
+}
 
 /* facts*/
 .fact-container{
