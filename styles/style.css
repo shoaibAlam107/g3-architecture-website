@@ -144,7 +144,7 @@ main > section{
   margin-top: -100px;
 }
 
-.feature-architect img{
+#feature-architect img{
   width: 100%;
 }
 #experience-year{
@@ -227,16 +227,20 @@ margin-bottom: 10px;
     gap: 50px;
   }
   #experience-batch{
+    padding: 10px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
 
+  }
+  #feature-architect{
+    width: 100%;
   }
   
 }
 
 /*responsive media query for medium device*/
 @media screen and (min-width:576px) and (max-width:992px) {
-  .teams{
+  .teams,.love-enjoy {
     flex-direction: column;
   }
   .our-feature{
@@ -246,5 +250,9 @@ margin-bottom: 10px;
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
     justify-items: center;
+  }
+  #experience-batch{
+    margin-top: 20px;
+    margin-left: 20px;
   }
 }
